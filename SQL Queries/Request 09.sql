@@ -18,6 +18,6 @@ WITH gross_sales_by_channel AS (
 )
 SELECT 
 	*,
-    ROUND((gross_sales_mln/(SELECT SUM(gross_sales_mln) FROM gross_sales_by_channel)*100),2) AS percentage
+    	ROUND((gross_sales_mln/(SELECT SUM(gross_sales_mln) FROM gross_sales_by_channel)*100),2) AS percentage
 FROM gross_sales_by_channel
 ORDER BY gross_sales_mln DESC;
