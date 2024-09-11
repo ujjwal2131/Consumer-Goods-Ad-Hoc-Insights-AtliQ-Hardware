@@ -8,8 +8,8 @@ The final output should contain these fields,
 
 SELECT 
 	DISTINCT p.product_code,
-    p.product,
-    ROUND(m.manufacturing_cost,2) AS manufacturing_cost
+    	p.product,
+    	ROUND(m.manufacturing_cost,2) AS manufacturing_cost
 FROM dim_product p
 JOIN fact_manufacturing_cost m USING(product_code)
 WHERE m.manufacturing_cost IN(
