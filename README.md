@@ -1,4 +1,4 @@
-# Consumer Goods Ad-Hoc Insights - AtliQ-Hardware
+# Consumer Goods Ad-Hoc Insights - AtliQ Hardware
 
 ## Project Details
   
@@ -18,3 +18,11 @@ The task was to analyze ad-hoc data requests from AtliQ Hardware, addressing key
 - Contributed to a 12% increase in revenue by optimizing product and sales strategies across different regions.
 - Helped reduce manufacturing costs by 8% through actionable insights on cost variances and pricing strategies.
 - Identified discounting inefficiencies, leading to a 7% boost in gross sales through refined customer discount strategies.
+
+
+**NOTE:** 
+- To review the SQL queries, click here.
+- For visual analysis, see the attached .xlsx file.
+- For strategic insights, refer to the attached .pdf file.
+
+For more details about the project click [here](https://codebasics.io/challenge/codebasics-resume-project-challenge/7).
