@@ -13,7 +13,7 @@ SELECT
 FROM dim_product p
 JOIN fact_manufacturing_cost m USING(product_code)
 WHERE m.manufacturing_cost IN(
-								(SELECT MAX(manufacturing_cost) FROM fact_manufacturing_cost),
+				(SELECT MAX(manufacturing_cost) FROM fact_manufacturing_cost),
                                 (SELECT MIN(manufacturing_cost) FROM fact_manufacturing_cost)
-							)
+			     )
 ORDER BY manufacturing_cost DESC;
