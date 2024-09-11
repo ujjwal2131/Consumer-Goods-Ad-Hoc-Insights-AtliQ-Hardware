@@ -10,11 +10,11 @@ WITH quarter_sales AS (
 		*,
 		CONCAT('Q', CEILING(MONTH(DATE_ADD(date, INTERVAL 4 MONTH))/3)) AS quarter_nm
 	FROM fact_sales_monthly s
-    WHERE fiscal_year = 2020
+    	WHERE fiscal_year = 2020
 )
 SELECT
 	quarter_nm,
-    ROUND(SUM(sold_quantity)/1000000,2) AS total_sold_qty_mln
+    	ROUND(SUM(sold_quantity)/1000000,2) AS total_sold_qty_mln
 FROM quarter_sales
 GROUP BY quarter_nm
 ORDER BY total_sold_qty_mln DESC;
