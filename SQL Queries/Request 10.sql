@@ -16,13 +16,13 @@ WITH sold_qty_by_division AS (
 		SUM(s.sold_quantity) AS total_sold_qty
 	FROM fact_sales_monthly s
 	JOIN dim_product p USING(product_code)
-    WHERE s.fiscal_year = 2021
+    	WHERE s.fiscal_year = 2021
 	GROUP BY p.division, p.product_code, p.product
 )
 ,rank_product_by_sold_qty AS (
-SELECT 
-	*,
-    DENSE_RANK() OVER(PARTITION BY division ORDER BY total_sold_qty DESC) AS rank_order
-FROM sold_qty_by_division
+	SELECT 
+		*,
+	    	DENSE_RANK() OVER(PARTITION BY division ORDER BY total_sold_qty DESC) AS rank_order
+	FROM sold_qty_by_division
 )
 SELECT * FROM rank_product_by_sold_qty WHERE rank_order <= 3;    
