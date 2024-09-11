@@ -7,7 +7,7 @@ sort them in descending order of product counts. The final output contains 2 fie
 
 SELECT 
 	segment,
-    COUNT(DISTINCT product_code) AS product_count
+    	COUNT(DISTINCT product_code) AS product_count
 FROM dim_product
 GROUP BY segment
 ORDER BY product_count DESC;
