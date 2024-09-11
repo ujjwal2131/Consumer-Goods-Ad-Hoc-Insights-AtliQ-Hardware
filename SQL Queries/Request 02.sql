@@ -15,6 +15,6 @@ WITH product_count AS (
 )
 SELECT 
 	unique_products_2020,
-    unique_products_2021,
-    ROUND((unique_products_2021 - unique_products_2020)*100/unique_products_2020,2) AS percentage_chg
+    	unique_products_2021,
+    	ROUND((unique_products_2021 - unique_products_2020)*100/unique_products_2020,2) AS percentage_chg
 FROM product_count;
