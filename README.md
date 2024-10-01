@@ -1,4 +1,4 @@
-# Consumer Goods Ad-Hoc Insights - AtliQ Hardware
+# Consumer Goods On-Demand Sales Insights
 
 ## Project Details
   
@@ -21,8 +21,8 @@ The task was to analyze ad-hoc data requests from AtliQ Hardware, addressing key
 
 
 **NOTE:** 
-- To review the SQL queries, click [here](https://github.com/ujjwal2131/Consumer-Goods-Ad-Hoc-Insights-AtliQ-Hardware/tree/main/SQL%20Queries).
+- To review the SQL queries, click [here](https://github.com/ujjwal2131/Consumer-Goods-On-Demand-Sales-Insights/tree/main/SQL%20Queries).
 - For visual analysis, see the attached **.xlsx** file.
-- For strategic insights, refer to the attached [.pdf files](https://github.com/ujjwal2131/Consumer-Goods-Ad-Hoc-Insights-AtliQ-Hardware/tree/main/Insights).
+- For strategic insights, refer to the attached [.pdf files](https://github.com/ujjwal2131/Consumer-Goods-On-Demand-Sales-Insights/tree/main/Insights).
 
 For more details about the project click [here](https://codebasics.io/challenge/codebasics-resume-project-challenge/7).
