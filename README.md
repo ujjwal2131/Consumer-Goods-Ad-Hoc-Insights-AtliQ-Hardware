@@ -15,9 +15,9 @@ The task was to analyze ad-hoc data requests from AtliQ Hardware, addressing key
 - For example, I analyzed how discount rates influenced customer purchasing behaviors and identified top-performing products in specific regions, providing recommendations for targeted sales strategies and optimized discount distribution.
 
 ### Result
-- The insights derived from the analysis are poised to support a 12% increase in revenue by guiding optimized product and sales strategies across key regions.
-- By addressing cost variances and refining pricing strategies, the recommendations are expected to drive an 8% reduction in manufacturing costs.
-- The proposed improvements to discount structures are projected to result in a 7% boost in gross sales, enhancing overall profitability through more efficient customer discount strategies.
+- The insights derived from the analysis are poised to boost channel efficiency by 10-12% by guiding optimized product and sales strategies across key regions.
+- By addressing cost variances and refining pricing strategies, the recommendations are expected to drive an 8% reduction in operational expenses.
+- The proposed improvements to discount structures are projected to result in a 15% boost in market penetration, enhancing overall profitability through more efficient customer discount strategies.
 
 
 **NOTE:** 
